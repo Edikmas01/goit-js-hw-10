@@ -1,0 +1,37 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: antiquewhite;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 40%;
+         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error{
+    background-color: red;
+}
+
+
+.cat-card__content {
+    display: flex;
+    gap: 20px;
+}
+
+.breed-select {
+    width: 200px;
+    height: 40px;
+    background-color: antiquewhite;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.breed-select option {
+ text-align: center;
+}
